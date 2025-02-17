@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hi, I am from COSC 1209 class
+        run: echo "Hi, I am from COSC 1209 class"
 
       
       - name: Set up JDK 11
