@@ -41,10 +41,10 @@ jobs:
         gradle-version: '8.9'
     
     - name: Build with Gradle 8.9
-        run: gradle build
+      run: gradle build
 
     - name: Build Docker image
-        run: docker build -t java-app .
+      run: docker build -t java-app .
 
     - name: Login to DockerHub
       uses: docker/login-action@v3
